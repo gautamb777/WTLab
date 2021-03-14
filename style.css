@@ -1,0 +1,266 @@
+
+
+.heading{
+  margin: 1em 0 0.5em 0;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+  background-color: black;
+  color: #34eb40;
+}
+.heading:hover{
+  background-color: white;
+}
+body{
+  background-image: url(2_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+h1{
+  color: #f1f511;
+  margin: 1em 0 0.5em 0;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+  background-color: black;
+}
+
+.name{
+  color:black;
+  font-size: 40px;
+  text-shadow: 0 2px white, 0 3px #777;
+  text-align: center;
+
+}
+.image1{
+  float:left;
+  margin-right: -20px;
+}
+.image1:hover{
+  opacity:50%;
+}
+
+.subhead{
+  color: #42f5e0;
+  margin: 1em 0 0.5em 0;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;
+  font-size: 18px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 1px white, 0 1px #777;
+  background-color: black;
+}
+html{
+  font-family: 'Ultra', sans-serif;
+}
+.menu ul{
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #000000;
+  text-align: center;
+  color: yellow;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu{
+  margin-top: 10%;
+  margin-bottom: 50%;
+}
+
+
+
+.menu1{
+  margin-top: 6%;
+  margin-left: 50px;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+img{
+  float: left;
+}
+.res{
+  margin: 1% 0 2% 0;
+  padding:2%;
+  border:solid;
+  height:160px;
+  width:200%;
+}
+.im{
+  margin-left: 20px;
+  float:left;
+}
+.car_name{
+  color:white;
+  background-color: black;
+  font-size: 20px;
+}
+.car_price{
+  background-color: black;
+  color: #42f59e;
+}
+.tab{
+  margin-top: 5%;
+  margin-left: 26%;
+}
+table{
+  width: 100%;
+}
+td, th {
+  background-color: black;
+  font-weight: bold;
+  color:#ff0000;
+  text-align: left;
+  padding: 5px;
+  width: 20px;
+  margin: 0 50em 0 50em;
+}
+
+.res:hover{
+  opacity:0.5;
+  background-color: black;
+}
+.menu ul:hover{
+  background-color: blue;
+}
+.logo{
+    position: absolute;
+    margin-left: 3%;
+    margin-bottom: -5%;
+   -webkit-animation:mymove 10s ease-in-out infinite;
+}
+@-webkit-keyframes mymove {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(1440deg); }
+}
+
+@media   (max-width:400px){
+  .column {
+  width: 100%;
+  }
+  table{
+    display:none;
+  }
+  .menu{
+    margin-bottom: 2%;
+  }
+  .menu1{
+
+    text-align: left;
+    margin-bottom: 20px;
+    width: auto;
+    margin-left: 0px;
+    margin-right: 10px;
+
+  }
+  img{
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  .res{
+    width:350px;
+    height:200px;
+    margin-right: 20px;
+    align-items: center;
+    text-align: left;
+  }
+  .car_name{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .car_price{
+    margin-left: 50px;
+  }
+  .logo{
+    margin-left:5px;
+    margin-top:-10px ;
+    width:70px;
+    height:60px;
+  }
+  .im{
+    float: unset;
+    margin-left: -50px;
+    margin-top: 160px;
+  }
+  .res img{
+    margin-left: 0px;
+
+  }
+}
+
+@media   (min-width:401px) and (max-width:600px){
+  .column{
+    width:100%;
+  }
+  .logo{
+    margin-left:5px;
+    margin-top:-10px ;
+    width:70px;
+    height:60px;
+  }
+
+  .menu{
+    margin-bottom: 2%;
+  }
+  .menu1{
+
+    text-align: left;
+    margin-bottom: 20px;
+    width: 550px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  img{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .res{
+
+    width:550px;
+    height:150px;
+    margin-right: 0px;
+    align-items: center;
+    text-align: left;
+  }
+  .car_name{
+    margin-left: 10px;
+  }
+  .car_price{
+    margin-left: 10px;
+  }
+  .tab{
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  table{
+
+    width: 50%;
+    margin-left: 88px;
+    margin-bottom: 20px;
+  }
+  td,th{
+    width: 50px;
+    font-size:0.8em;
+  }
+
+
+}
